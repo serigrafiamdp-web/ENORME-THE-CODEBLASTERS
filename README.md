@@ -12,13 +12,12 @@ This repository hosts the web-player version exported from LVLLVL. The actual C6
 - `js/content.js` — C64 program and player configuration (original ZIP)
 - `js/c64.min.js`, `js/c64.wasm` — compatible C64 emulator runtime from [LVLLVL](https://github.com/jaammees/lvllvl)
 - `images/` — virtual keyboard and joystick graphics, from LVLLVL
-- `.github/workflows/deploy-pages.yml` — automatic GitHub Pages deployment
 
 Keyboard input is available on desktop. Mobile controls are enabled. Audio may require interaction with the page depending on your browser.
 
-## Deployment
+## GitHub Pages
 
-Pushing changes to `main` automatically triggers GitHub Pages deployment. The static site needs no server or external backend.
+**One-time setup:** Open **Settings → Pages** in this repository. Under **Build and deployment**, select **Deploy from a branch**, select **main** and **/(root)**, then **Save**. From then on, pushing changes to `main` publishes the site automatically. The static site needs no server or external backend.
 
 ## Acknowledgment
 
